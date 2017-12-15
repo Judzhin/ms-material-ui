@@ -1,0 +1,32 @@
+{
+  "name": "ms-material-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src -d build --presets es2015",
+    "watch": "babel src -d build --presets es2015 -w",
+    "commit": "git add . && git commit -a -m \"Lazy Intermediate commit\" && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://judzhin:45256580z@github.com/Judzhin/ms-material-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Judzhin/ms-material-ui/issues"
+  },
+  "homepage": "https://github.com/Judzhin/ms-material-ui#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0"
+  }
+}
